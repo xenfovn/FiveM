@@ -1,0 +1,52 @@
+body {
+}
+
+.bar1 {
+    background: #2c2c2c;
+    position: absolute;
+    padding: 0.25vw;
+    color: #fff;
+    width: 8vw;
+    height: 1vw;
+    transform: skew(20deg);
+    border-radius: 0.1vw;
+    bottom: 3vw;
+    left: 45%;
+}
+
+.fa-tachometer-alt {
+    transform: skew(13deg);
+    margin-left: 13px;
+    margin-top: 7.3px;
+}
+
+.bar2 {
+    background: #2c2c2c;
+    position: absolute;
+    padding: 0.25vw;
+    color: #fff;
+    width: 10vw;
+    height: 2vw;
+    transform: skew(-20deg);
+    border-radius: 0.1vw;
+    bottom: 1.4vw;
+    left: 45%;
+    border-radius: 5px;
+	filter: alpha(opacity=80);
+	opacity: 0.8;
+	-moz-opacity: 0.8;
+	border: 1px solid #333;
+	border-top: 5px #e6e600 solid;
+}
+
+.kmh {
+    transform: skew(18deg);
+    position: absolute;
+    right: 3.7vw;
+    font-family: 'Open Sans';
+    font-size: 1vw;
+    top: 0.2vw;
+    font-weight: 600;
+    letter-spacing: -0.01vw;
+    margin-top: 5px;
+}
